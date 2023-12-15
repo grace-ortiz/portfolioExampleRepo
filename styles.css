@@ -1,0 +1,365 @@
+/* COGS3 studyBuddy specific styles go here. */
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: 'Urbanist';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Urbanist';
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Urbanist';
+}
+
+h4 {
+    font-family: 'Urbanist';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Urbanist';
+    font-size: 1.5rem;
+}
+
+.container-fluid {
+    padding: 2% 8%;
+}
+
+.row {
+    text-align: center;
+    align-items: center;
+}
+
+:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+.section-header {
+    text-align: left;
+    font-family: 'Notable';
+    font-size: 4.5rem;
+    transform: translate(-40px, 0px) ;
+    z-index: 20;
+ }
+
+/* Navigation Bar */
+
+.nav-container {
+    padding: 2% 5% 2% 2%;
+    border-bottom: 1px solid #C3C2C2;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    font-family: 'Notable';
+    font-size: 1.75rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+    margin: 0 12px;
+    border-radius: 20px;
+}
+
+.nav-item:hover {
+    background-color: #B1D7B4;
+}
+
+.nav-link {
+    font-family: 'Urbanist';
+    font-size: 1.375rem;
+}
+
+/* Intro */
+
+#about { 
+    background-color: #FFF6F2;
+    border-radius: 1%;
+}
+
+.headshot {
+    width: 100%;
+    border-radius: 20%;
+    margin: 30px 5px;
+}
+
+.intro-container {
+    min-height: 81vh;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro-text {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.arrow-icon {
+    color: black;
+    transition: ease;
+}
+
+.arrow-icon:hover {
+    color: #B1D7B4;
+}
+
+/* Resume Section */
+
+ #resume {
+    background-color: #FFF6F2;
+    border-radius: 1%;
+    min-height: 100vh;
+ }
+
+ .resume-container {
+    min-height: 81vh;
+ }
+
+ .resume-header {
+    transform: translate(-40px, 0px) ;;
+ }
+
+ .card {
+    border-radius: 20px;
+    background-color: #FFF6F2;
+ }
+
+ .card-header {
+    height: 18vh;
+ }
+
+ .acc-header {
+    font-size: 2.75rem;
+    font-family: 'Notable';
+    padding: 2vh;
+ }
+
+ .card-body {
+    text-align: left;
+    font-family: 'Urbanist';
+ }
+
+ .dates {
+    font-size: 1rem;
+    color: rgb(118, 118, 118);
+ }
+
+ .res-details {
+    font-size: 1.1rem;
+    margin-bottom: 2px;
+ }
+
+ .res-download {
+    margin-top: 8vh;
+ }
+
+ .download-btn {
+    border: none;
+    background-color: #FFF6F2;
+    color: black;
+ }
+
+ .download-btn:hover {
+    color:#B1D7B4;
+ }
+
+ /* Projects Sections*/
+
+ #projects {
+    text-align: center;
+    background-color: #FFF6F2;
+    border-radius: 1%;
+    font-family: 'Urbanist';
+    min-height: 100vh;
+ }
+
+ .project-container {
+    min-height: 81vh;
+}
+
+ .project-item {
+    background-color: #B1D7B4;
+    border-radius: 20px;
+    padding: 0;
+    color: black;
+    text-decoration: none;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.1), 
+                0px 2px 4px rgba(0,0,0,0.1), 
+                0px 4px 8px rgba(0,0,0,0.1), 
+                0px 8px 16px rgba(0,0,0,0.1); 
+    margin: 2vh 0vh;
+ }
+
+.project-item:hover {
+    color: black;
+    text-decoration: none;
+    box-shadow: 1px 2px 2px rgba(0,0,0,0.1), 
+                2px 4px 4px rgba(0,0,0,0.1), 
+                3px 8px 8px rgba(0,0,0,0.1), 
+                4px 16px 16px rgba(0,0,0,0.1);
+    padding: 2px;
+    background-color: #FFF6F2;
+    border: 1px solid black;
+}
+
+.project-header {
+    padding: 5% 9% 0%;
+    font-size: 1.4rem;
+
+}
+
+.project-text {
+    padding: 3% 9%;
+    font-size: 1.15rem;
+    color: rgb(68, 68, 68);
+}
+
+.project-text-hvl {
+    font-size: 1.08rem;
+}
+
+.disclaimer {
+    padding: 0 9%;
+    font-size: .8rem;
+    color: rgb(68, 68, 68);
+    margin: 5px;
+}
+
+.disclaimer-cogs18 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+ .project-img {
+    width: 100%;
+    padding: 0;
+    border-radius: 0 0 20px 20px;
+ }
+
+
+ /* Contact Section */
+
+ #contact {
+    text-align: center;
+    background-color: #FFF6F2;
+ }
+
+ .contact-container {
+    margin: 4vh 0 2vh;
+ }
+ .contact-item {
+    background-color: #B1D7B4;
+    border-radius: 20px;
+    
+ }
+
+ .contact-header {
+    transform: translate(-40px, 35px) ;
+ }
+
+ .contact-text {
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 3% 8% 1%;
+ }
+
+ .contact-icon {
+    margin: 8px;
+    color: black;
+ }
+
+ .contact-icon:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: 1;
+ }
+
+ @keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+  }
+
+/* Media Query Section */
+
+@media (max-width: 670px) {
+    .section-header {
+        font-size: 3.5rem;
+    }
+    .acc-header {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .headshot {
+        border-radius: 35%;
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: 60px;
+    }
+
+    .section-header {
+        transform: translate(-20px, 0px);
+    }
+
+    .contact-header {
+        transform: translate(-20px, 30px);
+    }
+}
+
+@media (max-width: 520px) {
+    .section-header {
+        transform: translate(-20px, 0px);
+        font-size: 2.1rem;
+    }
+
+    .acc-header {
+        font-size: 1.75rem;
+    }
+}
+
+@media (max-width: 336px) {
+    .navbar-brand {
+        font-size: 1.25rem;
+    }
+
+    h2 {
+        font-size: 1.79rem;
+    }
+
+    p {
+        font-size: 1.07rem;
+    }
+
+    .acc-header {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
